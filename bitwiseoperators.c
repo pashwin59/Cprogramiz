@@ -3,11 +3,9 @@
 int main() {
     int a = 5, b = 3;
 
-    // Binary:
-    // a = 5  -> 0101
-    // b = 3  -> 0011
+  
 
-    printf("a = %d, b = %d\n\n", a, b);
+    // printf("a = %d, b = %d\n\n", a, b);
 
     // Bitwise AND
     printf("a & b  = %d\n", a & b);   // 0001 -> 1
@@ -29,3 +27,21 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
