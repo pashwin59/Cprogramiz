@@ -5,7 +5,7 @@ int main(){
     int remainder;
     printf("enter a number you want to reverse\n");
     scanf("%d", &n);
-    while( n != 0){
+    while( n != 0){ //if and only if the condition is false
         
         remainder = n % 10;
         reverse  = reverse  * 10  + remainder;
