@@ -15,7 +15,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("Enter number %d: ", i + 1);
         scanf("%f", &numbers[i]);
-        sum += numbers[i];   // add each number to sum
+        sum = sum +  numbers[i];   // add each number to sum
     }
 
     // calculating average
